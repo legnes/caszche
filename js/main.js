@@ -6,7 +6,7 @@ function setup() {
 
   function updateCount() {
     counter.innerHTML = count;
-    window.location.hash = count;
+    if (count) window.location.hash = count;
   }
 
   function playSound() {
