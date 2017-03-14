@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#counter {
+  font-size: 20rem;
+}
+
+#button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+
+  border: none;
+  outline: none;
+
+  background-color: #80ffaa;
+  box-shadow: 0 10px #00b38f;
+}
+
+#button:active {
+  background-color: #80ffaa;
+  box-shadow: 0 5px #00b38f;
+  transform: translateY(5px);
+}
