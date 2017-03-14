@@ -25,4 +25,5 @@ body {
   background-color: #80ffaa;
   box-shadow: 0 5px #00b38f;
   transform: translateY(5px);
+  -webkit-transform: translateY(5px);
 }
