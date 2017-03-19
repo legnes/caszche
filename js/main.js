@@ -6,10 +6,11 @@ function setup() {
 
   function updateCount() {
     counter.innerHTML = count;
-    if (count) window.location.hash = count;
+    // if (count) window.location.hash = count;
   }
 
   function playSound() {
+    sound.play();
     sound.currentTime = 0;
     sound.play();
   }
