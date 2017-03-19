@@ -6,24 +6,27 @@ body {
 }
 
 #counter {
-  font-size: 20rem;
+  color: #D4AF37;
+  font-size: 18rem;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 0;
 }
 
 #button {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 0.5rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 6rem;
 
   border: none;
   outline: none;
 
-  background-color: #80ffaa;
-  box-shadow: 0 10px #00b38f;
+  background-image: url('../assets/face.jpg');
+  background-position: -1px 0px;
+  box-shadow: 0 10px #D4AF37;
 }
 
 #button:active {
-  background-color: #80ffaa;
-  box-shadow: 0 5px #00b38f;
+  box-shadow: 0 5px #D4AF37;
   transform: translateY(5px);
   -webkit-transform: translateY(5px);
 }
